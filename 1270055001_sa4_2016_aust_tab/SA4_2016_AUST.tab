@@ -1,0 +1,20 @@
+!table
+!version 300
+!charset WindowsLatin1
+!edit_version 450
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 7
+    SA4_CODE_2016 Char (3) Index 2 ;
+    SA4_NAME_2016 Char (50) ;
+    GCCSA_CODE_2016 Char (5) ;
+    GCCSA_NAME_2016 Char (50) ;
+    STATE_CODE_2016 Char (3) ;
+    STATE_NAME_2016 Char (50) ;
+    AREA_ALBERS_SQKM Float ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "7b81c354-652d-431c-91fd-0e12af270ca6"
+end_metadata
